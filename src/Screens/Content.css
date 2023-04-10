@@ -1,0 +1,832 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Lato:wght@100;300;400&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@500;700;900&display=swap');
+.top {
+    /* height: 95vh; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    position: relative;
+    flex-direction: column;
+}
+.hero-content{
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+.top img {
+    width: 30vmax;
+    height: 25vmax;
+    margin-right: 6vmax;
+}
+
+#top-content {
+    width: 28%;
+    margin-left: 6vmax;
+}
+
+#top-content>h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.5vmax;
+    line-height: 125%;
+}
+
+#top-content>p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.3vmax;
+    margin-right: 1vmax;
+}
+
+#btn {
+    font-family: 'Lato';
+    color: #F48850;
+    bottom: 0%;
+    left: 0%;
+    border: 2px solid #F48850;
+    background-color: #fff;
+    padding: .5vmax 2vmax;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 1vmax;
+}
+
+.services {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services>h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.5vmax;
+    line-height: 1px;
+}
+
+#services-content {
+    padding: 1.5vmax;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#services-box {
+    border: 1px solid #dadada;
+    width: 440px;
+    display: flex;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 3vmax 2vmax;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#services-box>img {
+    height:165px;
+    Width: 140px;
+}
+
+#text-services {
+    width: 90%;
+}
+
+#text-services>h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1px;
+}
+
+#text-services>p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 17px;
+    padding-right:1vmax;
+}
+
+#text-services>h2 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1px;
+    color: #F48850;
+}
+
+.data {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.data>h1 {
+    width: 20%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.5vmax;
+    color: #1E1E1E;
+    line-height: 125%;
+    text-align: center;
+}
+
+.data-container {
+    display: flex;
+    flex-direction: row;
+    padding: 2vmax 10vmax;
+}
+
+#data-num {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#data-box {
+    margin: 1vmax 2vmax;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#data-box>h1 {
+    color: #686868;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8vmax;
+    margin-bottom: 0%;
+}
+
+#data-box>p {
+    margin-top: 0%;
+    padding: 1vmax;
+    width: 80%;
+    border-top: 2px solid #F48850;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1vmax;
+    line-height: 112%;
+    color: #3F3F3F;
+    text-align: center;
+}
+
+.data-container>img {
+    width: 22vmax;
+    height: 22vmax;
+}
+
+.testimonials {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonials-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonials-head>h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.5vmax;
+    line-height: 57px;
+    color: #444444;
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3vmax;
+}
+
+.testimonials-head>p {
+    width: 35%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.7vmax;
+    line-height: 36px;
+    border-left: 3px solid transparent;
+    padding: 0vmax 3vmax;
+    border-image: linear-gradient(to bottom, #F48850 0%, #D25412 100%) 1;
+    color: #444444;
+}
+
+.testimonials-box-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0vmax 20vmax;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonials-box {
+    display: flex;
+    width: 35%;
+    flex-direction: column;
+    padding: 1vmax 2vmax;
+    margin: 2vmax;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#testimonials-box-head {
+    display: flex;
+    flex-direction: row;
+}
+
+#testimonials-box-head>img {
+    width: 3vmax;
+    height: 3vmax;
+}
+
+#testimonials-box-head-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5vmax;
+}
+
+#testimonials-box-head-text>h2 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9vmax;
+    line-height: 0px;
+    color: #1E1E1E;
+}
+
+#testimonials-box-head-text>h1 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1vmax;
+    line-height: 0px;
+    color: #1E1E1E;
+}
+
+.testimonials-box>p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9vmax;
+    line-height: 17px;
+    color: #686868;
+}
+
+.about {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about>h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.5vmax;
+    line-height: 125%;
+    color: #1E1E1E;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: row;
+    padding: 2vmax 5vmax;
+}
+
+.about-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    padding: 2vmax 10vmax;
+}
+
+.about-1>p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vmax;
+    line-height: 140.5%;
+    color: #3F3F3F;
+}
+
+.about-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+    padding: 2vmax 4vmax;
+}
+
+.about-2-box {
+    width: 30%;
+    margin: 2vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-2-box>img {
+    width: 3.2vmax;
+    height: 3.2vmax;
+}
+
+.about-2-box>p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1vmax;
+    line-height: 19px;
+    color: #3F3F3F;
+}
+
+#btn-about {
+    font-family: 'Lato';
+    color: #F48850;
+    border: 2px solid #F48850;
+    background-color: #fff;
+    padding: .5vmax 2vmax;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 1vmax;
+    width: 35%;
+}
+
+.partners {
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+    height: 220px;
+    background: linear-gradient(to right, #F48850, #FDA77B);
+}
+
+.partners>h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.partners-logo {
+    padding: 0 4vmax;
+    margin: 0px 2vmax;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.partners-logo::-webkit-scrollbar {
+    display: none;
+}
+
+.partners-image {
+    flex: 0 0 auto;
+    margin: 0px 20px;
+}
+
+.partners-image>img {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+}
+
+#pre-btn,
+#nxt-btn {
+    border: none;
+    width: 10vw;
+    padding-top: 2.5vmax;
+    height: 100%;
+    background-color: #F48850;
+    font-size: 2vmax;
+    color: #fff;
+    position: absolute;
+    top: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 9;
+}
+
+#pre-btn {
+    left: 0;
+}
+
+#nxt-btn {
+    right: 0;
+}
+
+.reads {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.reads>h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.5vmax;
+    line-height: 125%;
+    color: #1E1E1E;
+}
+
+.reads-content {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 2vmax 5vmax;
+}
+
+.reads-content h2 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1vmax;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-top: 14.5vmax;
+    position: relative;
+    z-index: 2;
+    padding: 1vmax 1vmax;
+}
+
+#one {
+    position: relative;
+    height: 20vmax;
+    width: 17vmax;
+    background-image: url('../Images/read-1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+    border-radius: 5px;
+    margin: 0.5vmax 1vmax;
+}
+#one::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Use rgba() for black color with opacity */
+    z-index: 1; /* Set a higher z-index to make sure the layer is on top of the image */
+}
+#two {
+    height: 20vmax;
+    width: 17vmax;
+    background-image: url('../Images/read-2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+    border-radius: 5px;
+    position: relative;
+    margin: 0.5vmax 1vmax;
+}
+#two::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Use rgba() for black color with opacity */
+    z-index: 1; /* Set a higher z-index to make sure the layer is on top of the image */
+}
+#three {
+    height: 20vmax;
+    width: 17vmax;
+    background-image: url('../Images/read-3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+    border-radius: 5px;
+    margin: 0.5vmax 1vmax;
+    position: relative;
+}
+#three::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Use rgba() for black color with opacity */
+    z-index: 1; /* Set a higher z-index to make sure the layer is on top of the image */
+}
+#four {
+    height: 20vmax;
+    width: 17vmax;
+    background-image: url('../Images/read-4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+    border-radius: 5px;
+    margin: 0.5vmax 1vmax;
+    position: relative;
+}
+#four::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Use rgba() for black color with opacity */
+    z-index: 1; /* Set a higher z-index to make sure the layer is on top of the image */
+}
+#btn-read,
+#btn-read-2 {
+    border: none;
+    height: 320px;
+    background-color: #fff;
+    font-size: 2vmax;
+    color: #BEBEBE;
+    cursor: pointer;
+}
+
+#btn-read {
+    left: 0;
+}
+
+#btn-read-2 {
+    right: 0;
+}
+
+
+@media (max-width:850px){
+    
+.top,.hero-content {
+    flex-direction: column;
+    margin-top: 0vh;
+}
+
+.top>img {
+    width: 45vmax;
+    height: 45vmax;
+    margin-right: 0vmax;
+}
+#top-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 0vmax;
+}
+#top-content>h1 {
+    font-size: 2.8vmax;
+    text-align: center;
+}
+#top-content>p {
+    font-size: 1.8vmax;
+    padding: 1vmax 2vmax;
+    margin-right: 0vmax;
+    text-align: center;
+}
+#btn {
+    margin: auto;
+    font-size: 1.6vmax;
+}
+.services{
+    height: 75vh;
+}
+.services>h1 {
+    font-size: 2.8vmax;
+}
+#services-content {
+    padding: 0vmax;
+}
+#services-box {
+    width: 275px;
+    margin: 1vmax;
+    padding: 1vmax 0.5vmax;
+}
+#services-box>img {
+    height:100px;
+    Width: 90px;
+}
+#text-services {
+    width: 100%;
+}
+#text-services>h1 {
+    font-size: 10px;
+    line-height: 1px;
+}
+
+#text-services>p {
+    font-size: 10px;
+    line-height: 14px;
+}
+
+#text-services>h2 {
+    font-size: 12px;
+}
+.data{
+    height: 85vh;
+}
+.data>h1 {
+    width: 80%;
+    font-size: 2.8vmax;
+}
+
+.data-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0vmax;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#data-num {
+    justify-content: center;
+}
+
+#data-box {
+    margin: 1vmax 2.5vmax;
+}
+
+#data-box>h1 {
+    font-size: 2vmax;
+}
+
+#data-box>p {
+    font-size: 1.4vmax;
+}
+
+.data-container>img {
+    margin-top: 2vmax;
+}
+
+.testimonials-head {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.testimonials-head>h1 {
+    font-size: 2.5vmax;
+    margin-bottom: 0px;
+    width: 60%;
+    justify-content: center;
+    margin-right: 0px;
+}
+
+.testimonials-head>p {
+    width: 80%;
+    line-height: 18px;
+    padding: 0vmax 2vmax;
+    border: none;
+    margin-top: 0px;
+}
+
+.testimonials-box-main {
+    padding: 0vmax 0vmax;
+}
+
+.testimonials-box {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1vmax 1.5vmax;
+    margin: 1.5vmax;
+}
+#testimonials-box-head>img {
+    width: 4vmax;
+    height: 4vmax;
+}
+
+
+#testimonials-box-head-text>h2 {
+    font-size: 1.2vmax;
+}
+
+#testimonials-box-head-text>h1 {
+    font-size: 1.2vmax;
+}
+
+.testimonials-box>p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vmax;
+    line-height: 15px;
+    color: #686868;
+}
+.reads{
+    height: 70vh;
+}
+.reads-content {
+    padding: 0vmax;
+}
+.reads-content h2 {
+    font-size: 0.8vmax;
+    line-height: 10px;
+    margin-top: 14vmax;
+}
+#one {
+    width: 26vmax;
+    margin: 0.5vmax;
+}
+#two {
+    height: 20vmax;
+    width: 25vmax;
+    margin: 0.5vmax;
+}
+#three {
+    display: none;
+}
+#four {
+    display: none;
+}
+#btn-read,
+#btn-read-2 {
+    font-size: 1.5vmax
+}
+.about{
+    height: 70vh;
+    width: 90%;
+    margin: auto;
+}
+.about>h1 {
+    font-size: 2.8vmax;
+}
+
+.about-content {
+    flex-direction: column;
+    padding: 0vmax;
+}
+
+.about-1 {
+    width: 100%;
+    padding: 0vmax;
+}
+
+.about-1>p {
+    font-size: 1.4vmax;
+    line-height: 130.5%;
+}
+
+.about-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 0vmax;
+    margin-top: 2.5vmax;
+}
+}
